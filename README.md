@@ -13,3 +13,5 @@ consumed by a Front-End interface, which will be developed by another team.
 - Use Pytest to testing
 - Use JWT for authentication
 - Implement unit and integration tests.
+- Deploy the application on the platform of your choice using
+Docker.
