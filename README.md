@@ -8,7 +8,7 @@ communication between the sales team, customers and the company. This API must b
 consumed by a Front-End interface, which will be developed by another team.
 
 ### Requirements
-- Must be created using the TDD and DDD technique
+- Must be created using the TDD technique
 - Must be created with FastAPI
 - Use Pytest to testing
 - Use JWT for authentication
@@ -16,4 +16,3 @@ consumed by a Front-End interface, which will be developed by another team.
 - Deploy the application on the platform of your choice using
 Docker.
 - API RESTful
-- MVC
