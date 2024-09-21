@@ -1,3 +1,8 @@
+# files
 tdd_guide.txt
 
+# ambiente de dev
 venv
+
+# banco dev
+sqlite.db

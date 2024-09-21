@@ -6,7 +6,7 @@ from sqlalchemy import pool
 from alembic import context
 
 from src.infra.models.model_user import User # Inportado para configurar migraçoes
-from src.infra.config.database import Base
+from src.infra.database.conection import Base
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
