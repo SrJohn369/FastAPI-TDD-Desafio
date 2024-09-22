@@ -1,17 +1,17 @@
 from sqlalchemy.orm import Session
 
-from src.schemas.produto import ProdutoSchema
-from src.infra.models.produto import Produtos as ProdutoModel
+from src.schemas.schema_user import UserSchema
+from src.models.model_user import UserModel
 
 
-class RepoProduto():
+class RepoUser():
     
     def __init__(self, db: Session):
         self.db = db
     
-    def criar(self, produto: ProdutoSchema):
-        db_produto = ProdutoModel(
-            # dados do schema para model  
+    def criar(self, user: UserSchema):
+        db_produto = UserModel(
+            name=user.name
         )
         
         self.db.add(db_produto)
