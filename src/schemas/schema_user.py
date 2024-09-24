@@ -4,17 +4,16 @@ from typing import Optional
 
 class UserBase(BaseModel):
     model_config = ConfigDict(from_attributes=True)
-    name: str
 
 
 class UserCreate(UserBase):
-    pass
+    name: str
+
+
+class UserUpdate(UserBase):
+    email: Optional[str] = None
 
 
 class UserSchema(UserBase):
     id: int
-    
-    # Se você tiver campos adicionais, adicione-os aqui
-    # Por exemplo:
-    # email: Optional[str] = None
-
+    email: Optional[str] = None

@@ -6,3 +6,4 @@ venv
 
 # banco dev
 sqlite.db
+test_db.sqlite3
